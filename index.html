@@ -1,0 +1,685 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>cinemagix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href=" css/animate.css ">
+    <link rel="stylesheet" href=" css/font-awesome.min.css ">
+    <link rel="stylesheet" href=" css/slick.css ">
+    <link rel="stylesheet" href=" js/rs-plugin/css/settings.css ">
+	
+    <script type="text/javascript" src=" js/modernizr.custom.32033.js "></script> 
+    <script src=" js/elevator.js "></script>
+
+	
+    <link rel="stylesheet" href=" css/eco.css ">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+		<style>
+		.scroll-top-wrapper {
+			position: fixed;
+			opacity: 0;
+			visibility: hidden;
+			overflow: hidden;
+			text-align: center;
+			z-index: 99999999;
+			background-color: #777777;
+			color: #eeeeee;
+			width: 50px;
+			height: 48px;
+			line-height: 48px;
+			right: 30px;
+			bottom: 30px;
+			padding-top: 2px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			-webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-ms-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+		.scroll-top-wrapper:hover {
+			background-color: #888888;
+		}
+		.scroll-top-wrapper.show {
+			visibility:visible;
+			cursor:pointer;
+			opacity: 1.0;
+		}
+		.scroll-top-wrapper i.fa {
+			line-height: inherit;
+		}
+		 
+		</style>
+    
+</head>
+
+<body>
+
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src=" img/eco/logo.png"class="animated fadeInDown" alt="">
+            <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+   
+    <header>
+        
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="fa fa-bars fa-lg"></span>
+                        </button>
+                        <a class="navbar-brand" href="#top">
+                            <img src=" img/eco/logo.png"alt="" class="logo">
+                        </a>
+
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#profile">Profile</a>
+                            </li>
+                            <li><a href="#features">Features</a>
+                            </li>
+<!--
+                            <li><a href="#features">Work</a>
+                            </li>
+                            <li><a href="#screens">Team</a>
+                            </li>
+-->
+                            <li><a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li><a href="#reviews">Reviews</a>
+                            </li>
+
+                            <li><a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-->
+        </nav>
+
+        
+        <!--RevSlider-->
+        <div class="tp-banner-container" id="top">
+            <div class="tp-banner" >
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                        <!-- MAIN IMAGE -->
+                        <img src=" img/transparent.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lfl fadeout hidden-xs"
+                            data-x="left"
+                            data-y="bottom"
+                            data-hoffset="30"
+                            data-voffset="0"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src=" img/eco/Slides/1.png"alt="">
+                        </div>
+
+                        <div class="tp-caption lfl fadeout visible-xs"
+                            data-x="left"
+                            data-y="center"
+                            data-hoffset="700"
+                            data-voffset="0"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src=" img/eco/9.png"alt="">
+                        </div>
+
+                        <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                         Your
+                        </div>
+                        <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+                        reality
+                        </div>
+                        <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
+                         brings Magic
+                        </div>
+
+<!--
+                        <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                            <a href="#about" class="btn btn-primary inverse btn-lg">brings</a>
+                        </div>
+                        <div class="tp-caption sfr hidden-xs" data-x="730" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
+                            <a href="#getApp" class="btn btn-default btn-lg">Magic</a>
+                        </div>
+-->
+
+                    </li>
+                    <!-- SLIDE 2 -->
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                        <!-- MAIN IMAGE -->
+                        <img src=" img/transparent.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lfb fadeout hidden-xs"
+                            data-x="center"
+                            data-y="bottom"
+                            data-hoffset="0"
+                            data-voffset="0"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src=" img/eco/Slides/2.png"alt="">
+                        </div>
+
+                        
+                        <div class="tp-caption large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
+                            CINEMAGIX <i class="fa fa-video-camera"></i>
+                        </div>
+                        
+                        
+                    </li>
+
+                    <!-- SLIDE 3 -->
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                        <!-- MAIN IMAGE -->
+                        <img src=" img/transparent.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption customin customout hidden-xs"
+                            data-x="right"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="50"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src=" img/eco/Slides/3.png"alt="">
+                        </div>
+
+                        <div class="tp-caption customin customout visible-xs"
+                            data-x="center"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="0"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src=" img/eco/Slides/3.png"alt="">
+                        </div>
+
+<!--
+                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                            <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
+                        </div>
+-->
+
+                        
+                        <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
+                           We set the camera up 
+                        </div>
+                        <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                           and tell your story.
+                        </div>
+                        <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
+                           <p>Cinemagix, is a bunch of cool and creative people packed into one. <br> To bring you the best of your moments <br>and share it for a lifetime</p>
+                        </div>
+
+<!--
+                        <div class="tp-caption lfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="160" data-speed="1000" data-start="1800" data-easing="Power4.easeOut">
+                            <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
+                        </div>
+-->
+                        
+                        
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <div class="wrapper">
+
+    
+        
+        
+         
+
+           <section id="profile">
+            <div class="container">
+
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>About cinemagix</h1>
+                    <div class="divider"></div>
+                    <p>Headed by master cinematographer, <strong>Jashen Travilla.</strong></p>
+                </div>
+
+<!--
+                <div class="filter scrollpoint sp-effect3">
+                    <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
+                    <a href="javascript:void(0)" class="button js-filter-one">User Access</a>
+                    <a href="javascript:void(0)" class="button js-filter-two">Social Network</a>
+                    <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
+                </div>
+-->
+                
+                <div class="slider filtering scrollpoint sp-effect5" >
+                    <div class="one">
+                        <img src=" img/eco/screens/2.png"alt="">
+                        <h4></h4>
+                    </div>
+                    <div class="two">
+                        <img src=" img/eco/screens/3.png"alt="">
+                        <h4></h4>
+                    </div>
+                    <div class="three">
+                        <img src=" img/eco/screens/4.png"alt="">
+                        <h4></h4>
+                    </div>
+                    <div class="one">
+                        <img src=" img/eco/screens/1.png"alt="">
+                        <h4></h4>
+                    </div>
+                    <div class="three">
+                        <img src=" img/eco/screens/5.png"alt="">
+                        <h4></h4>
+                    </div>
+<!--
+                    <div class="three">
+                        <img src="img/eco/screens/sales.jpg" alt="">
+                        <h4>Lorem ipsum dolor</h4>
+                    </div>
+-->
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Features</h1>
+                    <div class="divider"></div>
+                    <p>We will cater your video production needs</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
+                        <div class="media media-left feature">
+                            <a class="pull-right" href="#portfolio">
+                                <i class="fa fa-heart fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Weddings</h3>
+                                Our wedding videos let you feel those amazing feelings again.
+                            </div>
+                        </div>
+                        <div class="media media-left feature">
+                            <a class="pull-right" href="#portfolio">
+                                <i class="fa fa-gift fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Debut</h3>
+                                We make you feel young as always.
+                            </div>
+                        </div>
+                        <div class="media media-left feature">
+                            <a class="pull-right" href="#portfolio">
+                                <i class="fa fa-calendar fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Birthdays</h3>
+                                We freeze age as you celebrate your life.
+                            </div>
+                        </div>
+                        <div class="media media-left feature">
+                            <a class="pull-right" href="#portfolio">
+                                <i class="fa fa-building fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Corporate Events</h3>
+                                We capture your Big Day.
+                            </div>
+                        </div>
+<!--
+                        <div class="media media-left feature">
+                            <a class="pull-right" href="#">
+                                <i class="fa fa-calendar fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Church Events</h3>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+-->
+                    </div>
+                    <div class="col-md-4 col-sm-4" >
+                        <img src=" img/eco/5.png"class="img-responsive scrollpoint sp-effect5" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
+                        <div class="media feature">
+                            <a class="pull-left" href="#portfolio">
+                                <i class="fa fa-music fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Music Videos</h3>
+                                We preserve talents, and never gets worn out.
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left" href="#portfolio">
+                                <i class="fa fa-film fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">TV Commercials</h3>
+                                When you care enough to show the very best.
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left" href="#portfolio">
+                                <i class="fa fa-graduation-cap fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">School Events</h3>
+                                We catch your best life ever.
+                            </div>
+                        </div>
+                        <div class="media feature">
+                            <a class="pull-left" href="#portfolio">
+                                <i class="fa fa-video-camera fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Promotional Video</h3>
+                                Without promotion, something terrible happens... nothing!
+                            </div>
+                        </div>
+<!--
+                        <div class="media active feature">
+                            <a class="pull-left" href="#">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h3 class="media-heading">Promotinal Video</h3>
+                                Lorem ipsum dolor sit amet.
+                            </div>
+-->
+                        </div>
+                    </div>
+                </div>
+        </section>
+            
+        
+        <section id="portfolio">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Portfolio</h1>
+                    <div class="divider"></div>
+                    <p>Take a closer look in more detail</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
+<!--                        <div class="video-container" >-->
+
+<!--                                 <div class="row">-->
+<!--                                     <div class="twelve columns" align="center">-->
+
+                                        <div id="player"></div>
+                                        <script src=" js/vimeowrap.js "></script>
+                                        <script src=" js/vimeowrap.carousel.js "></script>
+                                        <script>
+                                            vimeowrap('player').setup({
+                                                width: 690,
+                                                height: 390,
+                                                color: '00BFFF',
+                                                autoplay: false,
+                                                portrait: false,
+                                                title: true,
+                                                byline: false,
+                                                urls: [
+                                                        'https://vimeo.com/user26643870'
+                                                ],
+                                                plugins: {
+                                                    'carousel': {
+                                                         width: 580,
+                                                         height: 250,
+                                                         offsetx: 60,
+                                                         offsety: 20,
+                                                         visible: 4,
+                                                         autoplay: true,
+                                                         thumb: {
+                                                             width: 130,
+                                                             height: 90,
+                                                             quality: 'large'
+                                                         }
+                                                    }
+                                                }
+                                            });
+                                        </script>
+<!--                                     </div>-->
+<!--                                </div>       
+-->
+
+<!--                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="reviews">
+            <div class="container">
+                <div class="section-heading inverse scrollpoint sp-effect3">
+                    <h1>Reviews and Feedback</h1>
+                    <div class="divider"></div>
+                    <p>Read What People Are Saying About Us</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                        <div class="review-filtering">
+                            <div class="review">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src=" img/eco/6.png"alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“Sir, you are a genius! You make everyone in my department soooo happy.
+                        The video is exceptional! Thank you from the bottom of our hearts! Bravo Sir Jash!”</h3>
+                                            <p>
+                                                - Edzen Espina, College dean, Liceo de Cagayan University
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review rollitin">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src=" img/eco/7.png"alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“Wow that is amazing!! The cinematography, soundtrack, tricks - all superb! I'm going to share
+                                                with my friends here in
+                                                England”</h3>
+                                            <p>
+                                                - Michael Franklin, Colchester, Essex
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review rollitin">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="review-person">
+                                            <img src=" img/eco/8.png"alt="" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="review-comment">
+                                            <h3>“Ang lakas nang production!”</h3>
+                                            <p>
+                                                - Julian Carlos, Brest, Brittany
+                                                <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="contact" class="doublediagonal">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Contact</h1>
+                    <div class="divider"></div>
+                    <p>Want us to create something for you? Pls contact us.</p>
+					<i class="fa fa-mobile fa-3x"></i>
+					<h4>09173155289</h4>
+					<h4>For more info..Click Facebook icons at the bottom</h4>
+                    <a href="#fb"><i class="fa fa-sort-desc fa-3x"></i></a>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <a href="#" class="scrollpoint sp-effect3">
+                    <img src=" img/eco/logo.png"alt="" class="logo">
+                </a>
+                <div class="social" id="fb">
+                    <a href="https://www.facebook.com/cinemagixbyjashentravilla" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://www.facebook.com/jashen.travilla" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                </div>
+                <h5>cinemagix - | - Personal</h5>
+				
+				<div class="elevator-button">				
+				<div class="scroll-top-wrapper ">
+					<span class="scroll-top-inner">
+						<i class="fa fa-2x fa-arrow-circle-up"></i>
+					</span>
+				</div>
+				</div>
+					<script>
+					// Elevator script included on the page, already.
+
+					window.onload = function() {
+					  var elevator = new Elevator({
+						element: document.querySelector('.elevator-button'),
+						mainAudio: 'music/elevator.mp3',
+						endAudio: 'music/ding.mp3'
+					  });
+					}
+					</script>				
+			
+					
+                <div class="rights">
+                    <p>Copyright &copy; 2015</p>
+                    <p>Gene</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src=" js/jquery-1.11.1.min.js "></script>
+    <script src=" js/bootstrap.min.js "></script>
+    <script src=" js/slick.min.js "></script>
+    <script src=" js/placeholdem.min.js "></script>
+    <script src=" js/rs-plugin/js/jquery.themepunch.plugins.min.js "></script>
+    <script src=" js/rs-plugin/js/jquery.themepunch.revolution.min.js "></script>
+    <script src=" js/waypoints.min.js "></script>
+    <script src=" js/scripts.js "></script>
+    <script>
+        $(document).ready(function() {
+            appMaster.preLoader();
+        });
+    </script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+			<script>
+			 
+			$(function(){
+			 
+				$(document).on( 'scroll', function(){
+			 
+					if ($(window).scrollTop() > 100) {
+						$('.scroll-top-wrapper').addClass('show');
+					} else {
+						$('.scroll-top-wrapper').removeClass('show');
+					}
+				});
+			});
+			</script>
+		
+</body>
+
+</html>
